@@ -1,10 +1,6 @@
 /*!
  * Material Design for Bootstrap 4
-<<<<<<< HEAD
  * Version: MDB Lite 4.7.0
-=======
- * Version: MDB Lite 4.6.1
->>>>>>> 8c36d5c795b6b3754e58387e349501095bf4bc38
  *
  *
  * Copyright: Material Design for Bootstrap
@@ -4074,10 +4070,6 @@ a.waves-effect, a.waves-light {
 
 .label-for-default-js {
   width: 100%;
-<<<<<<< HEAD
-=======
-  height: -webkit-calc(2.25rem + 2px);
->>>>>>> 8c36d5c795b6b3754e58387e349501095bf4bc38
   height: calc(2.25rem + 2px); }
 
 .navbar {
@@ -4170,9 +4162,6 @@ a.waves-effect, a.waves-light {
     .navbar.navbar-light form .md-form .form-control::-webkit-input-placeholder {
       color: #000;
       font-weight: 300; }
-    .navbar.navbar-light form .md-form .form-control:-ms-input-placeholder {
-      color: #000;
-      font-weight: 300; }
     .navbar.navbar-light form .md-form .form-control::-ms-input-placeholder {
       color: #000;
       font-weight: 300; }
@@ -4210,9 +4199,6 @@ a.waves-effect, a.waves-light {
   .navbar.navbar-dark form .md-form .form-control {
     color: #fff; }
     .navbar.navbar-dark form .md-form .form-control::-webkit-input-placeholder {
-      color: #fff;
-      font-weight: 300; }
-    .navbar.navbar-dark form .md-form .form-control:-ms-input-placeholder {
       color: #fff;
       font-weight: 300; }
     .navbar.navbar-dark form .md-form .form-control::-ms-input-placeholder {
@@ -5087,7 +5073,6 @@ body.scrollable {
     .md-form .prefix ~ input,
     .md-form .prefix ~ textarea {
       margin-left: 2.5rem;
-      width: -webkit-calc(100% - 2.5rem);
       width: calc(100% - 2.5rem); }
     .md-form .prefix ~ label {
       margin-left: 2.5rem; }
@@ -5125,7 +5110,6 @@ body.scrollable {
     .md-form.form-lg .prefix ~ input,
     .md-form.form-lg .prefix ~ textarea {
       margin-left: 3rem;
-      width: -webkit-calc(100% - 3rem);
       width: calc(100% - 3rem); }
     .md-form.form-lg .prefix ~ label {
       margin-left: 3rem; }
@@ -5143,7 +5127,6 @@ body.scrollable {
     .md-form.form-sm .prefix ~ input,
     .md-form.form-sm .prefix ~ textarea {
       margin-left: 2rem;
-      width: -webkit-calc(100% - 2rem);
       width: calc(100% - 2rem); }
     .md-form.form-sm .prefix ~ label {
       margin-left: 2rem; }
@@ -5543,7 +5526,6 @@ ul.stepper {
           content: "";
           position: absolute;
           width: 1px;
-          height: -webkit-calc(100% - 40px);
           height: calc(100% - 40px);
           left: 2.19rem;
           top: 3.75rem; } }
@@ -5622,7 +5604,6 @@ ul.stepper {
       content: "";
       position: absolute;
       width: 1px;
-      height: -webkit-calc(100% - 40px);
       height: calc(100% - 40px);
       left: 2.19rem;
       top: 3.44rem;
