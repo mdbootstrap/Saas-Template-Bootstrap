@@ -1,6 +1,6 @@
 /*!
  * Material Design for Bootstrap 4
- * Version: MDB FREE: 4.5.15
+ * Version: MDB FREE: 4.7.0
  *
  *
  * Copyright: Material Design for Bootstrap
@@ -21,7 +21,7 @@
  *
  * Contact: office@mdbootstrap.com
  *
- * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
+ * Attribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
  *
  */
 
@@ -15686,23 +15686,47 @@ var _this = void 0;
     office@mdbootstrap.com
 */
 
-$('body').on('shown.bs.modal', '.modal', function() {
-    if($('.modal-backdrop').length) {
-    } else {
+(function($){
+  $('body').on('shown.bs.modal', '.modal', function() {
+    if(!$('.modal-backdrop').length) {
 
-        $modal_dialog = $(this).children('.modal-dialog')
+      $modal_dialog = $(this).children('.modal-dialog')
 
-        if($modal_dialog.hasClass('modal-side')) {
-            $(this).addClass('modal-scrolling');
-            $('body').addClass('scrollable');
-        }
+      if($modal_dialog.hasClass('modal-side')) {
+        $(this).addClass('modal-scrolling');
+        $('body').addClass('scrollable');
+      }
 
-        if($modal_dialog.hasClass('modal-frame')) {
-            $(this).addClass('modal-content-clickable');
-            $('body').addClass('scrollable');
-        }
+      if($modal_dialog.hasClass('modal-frame')) {
+        $(this).addClass('modal-content-clickable');
+        $('body').addClass('scrollable');
+      }
     }
-});
-$('body').on('hidden.bs.modal', '.modal', function() {
+  });
+  $('body').on('hidden.bs.modal', '.modal', function() {
     $('body').removeClass('scrollable');
-});
+  });
+})(jQuery);
+
+"use strict";
+
+(function ($) {
+  $('.input-default-wrapper').on('change', '.input-default-js', function (e) {
+    var $this = $(e.target),
+        $label = $this.next('label'),
+        $files = $this[0].files;
+    var fileName = '';
+
+    if ($files && $files.length > 1) {
+      fileName = ($this.attr('data-multiple-target') || '').replace('{target}', $files.length);
+    } else if (e.target.value) {
+      fileName = e.target.value.split('\\').pop();
+    }
+
+    if (fileName) {
+      $label.find('.span-choose-file').html(fileName);
+    } else {
+      $label.html($label.html());
+    }
+  });
+})(jQuery);
