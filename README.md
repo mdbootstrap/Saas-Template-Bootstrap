@@ -1,4 +1,4 @@
-[![Material Design for Bootstrap](https://mdbootstrap.com/wp-content/uploads/2018/03/saas.jpg)](https://mdbootstrap.com/freebies/saas-template/)
+[![Material Design for Bootstrap](https://mdbootstrap.com/wp-content/uploads/2018/03/saas.jpg)](https://mdbootstrap.com/freebies/jquery/saas/)
 
 # Bootstrap 4 & Material Design - SAAS Template 
 
@@ -7,7 +7,7 @@ Free, responsive Saas template containing pages and components designed for comp
 ________
 
 # Live Previews: 
-## https://mdbootstrap.com/freebies/saas-template/
+## https://mdbootstrap.com/freebies/jquery/saas/
 
 # Most important features:
 
